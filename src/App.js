@@ -42,8 +42,10 @@ function App() {
       {/* TESTIMONIALS */}
       <section className="testimonials">
         <h2>What Our Guests Say</h2>
-        <blockquote>“An unforgettable experience. The staff made us feel like royalty!” – Ashik P.</blockquote>
-        <blockquote>“Absolutely stunning views and peaceful ambiance.” – Aahana P.</blockquote>
+        <blockquote>“The stay was great. Worth of every penny” – Arjun P.</blockquote>
+        <blockquote>“I visited Casanada with my mom, and we both absolutely loved the experience. The Airbnb is right on the beach, and the best part is you can actually enjoy the sound of the waves and the beach view straight from your room.
+There's a cozy little seating area by the window that's perfect for just relaxing and soaking in the beach vibes—we spent a lot of time there! The room was super clean, well-maintained, and had everything we needed.
+The whole place is in a great spot and very well taken care of. Big thanks to Ajay, the caretaker, who was so kind and helpful throughout our stay. No matter how many times we needed something, he was always there with a smile and ready to help. Would definitely love to come back again. Highly recommend if you're looking for a peaceful beachside getaway!” – Sonali</blockquote>
       </section>
 
       {/* CONTACT */}
