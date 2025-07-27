@@ -49,9 +49,9 @@ function App() {
       {/* CONTACT */}
       <section className="contact">
         <h2>Contact Us</h2>
-        <p>Email: reservations@casanadaresort.com</p>
-        <p>Phone: +91 8652894307</p>
-        <p>Location: CASA NADA, Mattu Beach, Udupi, Karnataka</p>
+        <p>Email: info.casanada@gmail.com</p>
+        <p>Phone: +91 7715839803</p>
+        <p>Location: CASANADA Homestay, Mattu Beach, Udupi, Karnataka</p>
       </section>
 
       <footer>
