@@ -91,18 +91,18 @@ function App() {
         <h2>Gallery</h2>
         <div className="images">
           <a
-            href="https://www.instagram.com/p/DMH67kPK7VX/?igsh=OTIxaDhjbjhhcXQ4"
+            href="https://www.instagram.com/p/DMHx66AKSbT/?igsh=djNvbjdwd25ob2ln"
             target="_blank"
             rel="noopener noreferrer"
           >
           <img src={process.env.PUBLIC_URL + '/images/resort1.jpg'} alt="Resort View" /></a>
           <a
-            href="https://www.instagram.com/p/DMHx66AKSbT/?igsh=djNvbjdwd25ob2ln"
+            href="https://www.instagram.com/p/DMHtCENKt9s/?igsh=cjhlcHkxa2JkaXB4"
             target="_blank"
             rel="noopener noreferrer"
           ><img src={process.env.PUBLIC_URL + '/images/resort2.jpg'} alt="Beach View" /></a>
           <a
-            href="https://www.instagram.com/p/DMHtCENKt9s/?igsh=cjhlcHkxa2JkaXB4"
+            href="https://www.instagram.com/p/DMH67kPK7VX/?igsh=OTIxaDhjbjhhcXQ4"
             target="_blank"
             rel="noopener noreferrer"
           ><img src={process.env.PUBLIC_URL + '/images/resort3.jpg'} alt="Room Interior" /></a>
