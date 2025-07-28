@@ -124,11 +124,12 @@ section {
 .amenities ul {
     list-style: none;
     padding: 0;
+    margin: 0em 0;
 }
 
 .amenities li {
     font-size: 1.2em;
-    margin: 0.5em 0;
+    margin: 0em 0;
 }
 
 .gallery .images {

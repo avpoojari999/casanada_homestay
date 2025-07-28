@@ -111,6 +111,71 @@ function App() {
         </div>
       </section>
 
+      {/* BOOK NOW SECTION */}
+      <section
+        className="book-now"
+        style={{
+          maxWidth: 700,
+          margin: '2em auto',
+          background: '#f8f9fa',
+          borderRadius: 14,
+          boxShadow: '0 2px 12px rgba(44,62,80,0.07)',
+          padding: '2em 1.5em 1.5em 1.5em',
+          textAlign: 'center'
+        }}
+      >
+        <h2 style={{ color: '#1a2a36', fontWeight: 700, fontSize: '2rem', marginBottom: '1.2em' }}>
+          Book Now
+        </h2>
+        <div style={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          gap: '2.5em',
+          flexWrap: 'wrap'
+        }}>
+          <a
+            href="https://www.airbnb.co.in/rooms/1461761489820842860?guests=1&adults=1&s=67&unique_share_id=7c794354-6d2b-45b8-801b-6ecc817499bf&source_impression_id=p3_1753726475_P3km7EzEMD-kBWQ0&fbclid=PAQ0xDSwL0nWRleHRuA2FlbQIxMQABp38YwB-pwVPfxLJa0dBPK3wE32maB118-_EfhbmPswlWq6vx71fay0CvIRgO_aem_04beUSccPk8qaksm1i-mOw"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textDecoration: 'none' }}
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_Bélo.svg/512px-Airbnb_Logo_Bélo.svg.png"
+              alt="Airbnb"
+              style={{ width: 60, height: 60, marginBottom: 8, objectFit: 'contain', background: '#fff', borderRadius: '50%', border: '1px solid #eee', padding: 6 }}
+            />
+            <span style={{ color: '#FF5A5F', fontWeight: 600, fontSize: '1.1em' }}>Airbnb</span>
+          </a>
+          <a
+            href="https://www.agoda.com/en-in/casanada-beach-stay/hotel/katapady-in.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textDecoration: 'none' }}
+          >
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/agoda-1.svg"
+              alt="Agoda"
+              style={{ width: 60, height: 60, marginBottom: 8, background: '#fff', borderRadius: '50%', border: '1px solid #eee', padding: 6 }}
+            />
+            <span style={{ color: '#1a2a36', fontWeight: 600, fontSize: '1.1em' }}>Agoda</span>
+          </a>
+          <a
+            href="https://www.booking.com/hotel/in/casa-villa-udupi.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textDecoration: 'none' }}
+          >
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/bookingcom-1.svg"
+              alt="Booking.com"
+              style={{ width: 60, height: 60, marginBottom: 8, background: '#fff', borderRadius: '50%', border: '1px solid #eee', padding: 6 }}
+            />
+            <span style={{ color: '#003580', fontWeight: 600, fontSize: '1.1em' }}>Booking.com</span>
+          </a>
+        </div>
+      </section>
+
       {/* POLICY SECTION */}
       <section className="policy">
         <h2 style={{ textAlign: 'center', marginBottom: '0.5em', color: '#2c3e50' }}>Casanada Homestay Policy</h2>
@@ -154,7 +219,6 @@ function App() {
           }}>
             <li>Check-in: 1:00 PM | Check-out: 11:00 AM</li>
             <li>No smoking inside rooms</li>
-            <li>Pets are not allowed</li>
             <li>Outside food is allowed</li>
             <li>Quiet hours: 10:00 PM – 7:00 AM</li>
             <li>Guests are responsible for their belongings</li>
@@ -172,6 +236,124 @@ function App() {
             <li>When booking more than 5 rooms, different policies and additional supplements may apply.</li>
           </ul>
         </div>
+      </section>
+
+       {/* AMENITIES SECTION */}
+      <section
+        className="amenities"
+        style={{
+          maxWidth: 700,
+          margin: '0 auto 2.5em auto',
+          background: '#f8f9fa',
+          borderRadius: 14,
+          boxShadow: '0 2px 12px rgba(44,62,80,0.07)',
+          padding: '1.5em 1.5em 1em 1.5em'
+        }}
+      >
+        <h2
+          style={{
+            textAlign: 'center',
+            color: '#1a2a36',
+            marginBottom: '1.2em',
+            fontWeight: 700,
+            fontSize: '2rem',
+            letterSpacing: '1px'
+          }}
+        >
+          Property Amenities
+        </h2>
+        <ul style={{
+          listStyle: 'none',
+          padding: 0,
+          margin: 0,
+          color: '#2c3e50',
+          fontSize: '1.13rem',
+          maxWidth: 400,
+          marginLeft: 'auto',
+          marginRight: 'auto',
+          textAlign: 'left',
+          lineHeight: 2
+        }}>
+          <li style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: 10,
+            
+            padding: '0.5em 0'
+          }}>
+            <span style={{ fontSize: 15 }}>🖥️ TV</span>
+            
+          </li>
+          <li style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: 10,
+            
+            padding: '0.5em 0'
+          }}>
+            <span style={{ fontSize: 15 }}>📶 WiFi</span>
+            
+          </li>
+          <li style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: 10,
+            
+            padding: '0.5em 0'
+          }}>
+            <span style={{ fontSize: 15}}>❄️ Air conditioning</span>
+            
+          </li>
+          <li style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: 10,
+            
+            padding: '0.5em 0'
+          }}>
+            <span style={{ fontSize: 15 }}>🅿️ Free parking</span>
+            
+          </li>
+          <li style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: 10,
+            
+            padding: '0.5em 0'
+          }}>
+            <span style={{ fontSize: 15 }}>🌅 Balcony</span>
+            
+          </li>
+          <li style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: 10,
+            
+            padding: '0.5em 0'
+          }}>
+            <span style={{ fontSize: 15}}>🏞️ Terrace</span>
+            
+          </li>
+          <li style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: 10,
+            
+            padding: '0.5em 0'
+          }}>
+            <span style={{ fontSize: 15 }}>🌳 Garden</span>
+            
+          </li>
+          <li style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: 10,
+            padding: '0.5em 0'
+          }}>
+            <span style={{ fontSize: 15 }}>🏖️ Beach view</span>
+            
+          </li>
+        </ul>
       </section>
 
       {/* TESTIMONIALS CAROUSEL */}
