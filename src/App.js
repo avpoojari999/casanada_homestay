@@ -79,9 +79,11 @@ function App() {
             <source src={process.env.PUBLIC_URL + '/videos/about.mp4'} type="video/mp4" />
           </video>
           <div className="about-overlay">
-            <h2>About CASANADA</h2>
+            <h2>About Us</h2>
             <h3>Our Philosophy</h3>
-            <p>We combine elegance and nature to create a serene getaway. Our goal is to make every guest feel at home in paradise.</p>
+            <p><strong>Casanada Homestay</strong> is a tranquil retreat on Mattu Beach, blending timeless architecture with natural comfort.<br /><br />
+              Built with handcrafted bricks, mud walls, and laterite stone, our eco-friendly homestay stays cool and inviting year-round.<br /><br />
+              Every detail reflects sustainability, comfort, and heritage offering you a peaceful escape in harmony with nature.</p>
           </div>
         </div>
       </section>
@@ -106,6 +108,69 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           ><img src={process.env.PUBLIC_URL + '/images/resort3.jpg'} alt="Room Interior" /></a>
+        </div>
+      </section>
+
+      {/* POLICY SECTION */}
+      <section className="policy">
+        <h2 style={{ textAlign: 'center', marginBottom: '0.5em', color: '#2c3e50' }}>Casanada Homestay Policy</h2>
+        <div style={{
+          background: '#f8f9fa',
+          borderRadius: '12px',
+          padding: '1.5em 1.5em 1em 1.5em',
+          boxShadow: '0 2px 12px rgba(44,62,80,0.07)',
+          maxWidth: 700,
+          margin: '0 auto 2em auto'
+        }}>
+          <h3 style={{ color: '#007bff', marginTop: 0, textAlign: 'left' }}>Announcements from Casanada Homestay</h3>
+          <ul style={{
+            lineHeight: 1.7,
+            paddingLeft: '1.2em',
+            marginBottom: '1.2em',
+            color: '#2c3e50',
+            fontSize: '1.05rem',
+            textAlign: 'left'
+          }}>
+            <li>
+              <strong>No hen, stag or similar parties:</strong> This property will not accommodate such parties. These are often noisy or disruptive, so we avoid them to maintain a peaceful environment for all guests and neighbors.
+            </li>
+            <li>
+              <strong>Identification & Payment:</strong> Guests are required to show a photo identification and credit card upon check-in. All special requests are subject to availability and additional charges may apply.
+            </li>
+            <li>
+              <strong>Advance Payment:</strong> Payment before arrival via bank transfer is required. The property will contact you after booking to provide instructions.
+            </li>
+            <li>
+              <strong>Tax Policy:</strong> Any changes in tax structure due to government policies will result in revised taxes, which will be applicable to all reservations and will be charged additionally during check out.
+            </li>
+          </ul>
+          <h4 style={{ color: '#2c3e50', marginTop: '1.2em', textAlign: 'left' }}>General Policies</h4>
+          <ul style={{
+            lineHeight: 1.7,
+            paddingLeft: '1.2em',
+            color: '#2c3e50',
+            fontSize: '1.05rem',
+            textAlign: 'left'
+          }}>
+            <li>Check-in: 1:00 PM | Check-out: 11:00 AM</li>
+            <li>No smoking inside rooms</li>
+            <li>Pets are not allowed</li>
+            <li>Outside food is allowed</li>
+            <li>Quiet hours: 10:00 PM – 7:00 AM</li>
+            <li>Guests are responsible for their belongings</li>
+            <li>Any damage to property will be charged</li>
+          </ul>
+          <h4 style={{ color: '#2c3e50', marginTop: '1.2em', textAlign: 'left' }}>Chalet Policies</h4>
+          <ul style={{
+            lineHeight: 1.7,
+            paddingLeft: '1.2em',
+            color: '#2c3e50',
+            fontSize: '1.05rem',
+            textAlign: 'left'
+          }}>
+            <li>Extra beds are dependent on the room you choose. Please check the individual room capacity for more details.</li>
+            <li>When booking more than 5 rooms, different policies and additional supplements may apply.</li>
+          </ul>
         </div>
       </section>
 
