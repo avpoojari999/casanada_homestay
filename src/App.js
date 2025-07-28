@@ -90,9 +90,22 @@ function App() {
       <section className="gallery">
         <h2>Gallery</h2>
         <div className="images">
-          <img src={process.env.PUBLIC_URL + '/images/resort1.jpg'} alt="Resort View" />
-          <img src={process.env.PUBLIC_URL + '/images/resort2.jpg'} alt="Beach View" />
-          <img src={process.env.PUBLIC_URL + '/images/resort3.jpg'} alt="Room Interior" />
+          <a
+            href="https://www.instagram.com/p/DMH67kPK7VX/?igsh=OTIxaDhjbjhhcXQ4"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+          <img src={process.env.PUBLIC_URL + '/images/resort1.jpg'} alt="Resort View" /></a>
+          <a
+            href="https://www.instagram.com/p/DMH67kPK7VX/?igsh=OTIxaDhjbjhhcXQ4"
+            target="_blank"
+            rel="noopener noreferrer"
+          ><img src={process.env.PUBLIC_URL + '/images/resort2.jpg'} alt="Beach View" /></a>
+          <a
+            href="https://www.instagram.com/p/DMH67kPK7VX/?igsh=OTIxaDhjbjhhcXQ4"
+            target="_blank"
+            rel="noopener noreferrer"
+          ><img src={process.env.PUBLIC_URL + '/images/resort3.jpg'} alt="Room Interior" /></a>
         </div>
       </section>
 
