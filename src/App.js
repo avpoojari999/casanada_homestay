@@ -290,7 +290,7 @@ function App() {
   <i className="fas fa-parking" style={{ fontSize: 20, color: '#222', minWidth: 24 }}></i>
   Free parking
 </li>
-<li style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '0.5em 0', borderBottom: '1px solid #e0e6ed' }}>
+<li style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '0.5em 0'}}>
   <img
     src="https://cdn-icons-png.flaticon.com/512/7969/7969731.png"
     alt="Balcony"
@@ -304,7 +304,7 @@ function App() {
   />
   Balcony
 </li>
-<li style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '0.5em 0', borderBottom: '1px solid #e0e6ed' }}>
+<li style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '0.5em 0' }}>
   <img
     src="https://cdn-icons-png.flaticon.com/512/1207/1207274.png"
     alt="Terrace"
