@@ -274,85 +274,58 @@ function App() {
           textAlign: 'left',
           lineHeight: 2
         }}>
-          <li style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: 10,
-            
-            padding: '0.5em 0'
-          }}>
-            <span style={{ fontSize: 15 }}>🖥️ TV</span>
-            
-          </li>
-          <li style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: 10,
-            
-            padding: '0.5em 0'
-          }}>
-            <span style={{ fontSize: 15 }}>📶 WiFi</span>
-            
-          </li>
-          <li style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: 10,
-            
-            padding: '0.5em 0'
-          }}>
-            <span style={{ fontSize: 15}}>❄️ Air conditioning</span>
-            
-          </li>
-          <li style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: 10,
-            
-            padding: '0.5em 0'
-          }}>
-            <span style={{ fontSize: 15 }}>🅿️ Free parking</span>
-            
-          </li>
-          <li style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: 10,
-            
-            padding: '0.5em 0'
-          }}>
-            <span style={{ fontSize: 15 }}>🌅 Balcony</span>
-            
-          </li>
-          <li style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: 10,
-            
-            padding: '0.5em 0'
-          }}>
-            <span style={{ fontSize: 15}}>🏞️ Terrace</span>
-            
-          </li>
-          <li style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: 10,
-            
-            padding: '0.5em 0'
-          }}>
-            <span style={{ fontSize: 15 }}>🌳 Garden</span>
-            
-          </li>
-          <li style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: 10,
-            padding: '0.5em 0'
-          }}>
-            <span style={{ fontSize: 15 }}>🏖️ Beach view</span>
-            
-          </li>
+          <li style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '0.5em 0' }}>
+  <i className="fas fa-tv" style={{ fontSize: 20, color: '#222', minWidth: 24 }}></i>
+  TV
+</li>
+<li style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '0.5em 0' }}>
+  <i className="fas fa-wifi" style={{ fontSize: 20, color: '#222', minWidth: 24 }}></i>
+  WiFi
+</li>
+<li style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '0.5em 0'}}>
+  <i className="fas fa-snowflake" style={{ fontSize: 20, color: '#222', minWidth: 24 }}></i>
+  Air conditioning
+</li>
+<li style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '0.5em 0'}}>
+  <i className="fas fa-parking" style={{ fontSize: 20, color: '#222', minWidth: 24 }}></i>
+  Free parking
+</li>
+<li style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '0.5em 0', borderBottom: '1px solid #e0e6ed' }}>
+  <img
+    src="https://cdn-icons-png.flaticon.com/512/7969/7969731.png"
+    alt="Balcony"
+    style={{
+      width: 24,
+      height: 24,
+      filter: 'grayscale(0) brightness(1.1) contrast(1.5) drop-shadow(0 0 1px #222)',
+      opacity: 0.95,
+      minWidth: 24
+    }}
+  />
+  Balcony
+</li>
+<li style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '0.5em 0', borderBottom: '1px solid #e0e6ed' }}>
+  <img
+    src="https://cdn-icons-png.flaticon.com/512/1207/1207274.png"
+    alt="Terrace"
+    style={{
+      width: 24,
+      height: 24,
+      filter: 'grayscale(0) brightness(1.1) contrast(1.5) drop-shadow(0 0 1px #222)',
+      opacity: 0.95,
+      minWidth: 24
+    }}
+  />
+  Terrace
+</li>
+<li style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '0.5em 0'}}>
+  <i className="fas fa-tree" style={{ fontSize: 20, color: '#222', minWidth: 24 }}></i>
+  Garden
+</li>
+<li style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '0.5em 0' }}>
+  <i className="fas fa-umbrella-beach" style={{ fontSize: 20, color: '#222', minWidth: 24 }}></i>
+  Beach view
+</li>
         </ul>
       </section>
 
